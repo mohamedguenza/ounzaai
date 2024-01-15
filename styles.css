@@ -94,7 +94,7 @@ body::before {
   width: 100%;
 }
 .cards {
-  border-radius:5px;
+  border-radius:8px;
   width: 300px;
   padding: 9px;
   min-height: 150px;
