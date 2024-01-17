@@ -84,7 +84,7 @@ body::before {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-items: center;
   gap: 15px;
-  padding: 0 25px;
+  padding: 0 60px;
 }
 
 .ai-image {
