@@ -43,7 +43,7 @@ body::before {
   margin-right: 5px;
 }
 .image h4::first-letter {
-  color: #7c30d8;
+  color: #c0a6df;
   font-size: 30px;
 }
 .main-section {
@@ -94,7 +94,6 @@ body::before {
   width: 100%;
 }
 .cards {
-  border-radius:8px;
   width: 300px;
   padding: 9px;
   min-height: 150px;
@@ -123,15 +122,14 @@ button {
 }
 
 .footer {
-    width: 100%;
+  width: 100%;
   background-color: #fff;
   border-top: 1px solid #e9e9e9;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 13px;
-height: 40px;
-
+  height: 40px;
 }
 
 .wtspContainer {
@@ -158,41 +156,40 @@ form input {
   padding: 10px 10px;
 }
 
-
-.wifi-section{
-    position: relative;
-    width: 100%;
-    height: 90vh;
-    padding-top: 10vh;
-    background: linear-gradient(180deg,#feb95a40,#feb95a40 100%,#feba5a15);
-    background-size: auto;
-    text-align: center;
+.wifi-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  padding-top: 10vh;
+  background: linear-gradient(180deg, #feb95a40, #feb95a40 100%, #feba5a15);
+  background-size: auto;
+  text-align: center;
 }
 
-.remover-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    flex-wrap: wrap;
+.remover-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
 }
 
-.imgsecti{
-    border: 5px dotted #fe9c15;
-    padding: 40px;
-    border-radius: 8px;
+.imgsecti {
+  border: 5px dotted #fe9c15;
+  padding: 40px;
+  border-radius: 8px;
 }
-.uploadimage{
-    background: #fe9c15;
-    padding: 21px 0px;
-    width: 194px;
-    text-align: center;
-    margin: 0 auto;
-    color: #fff;
-    font-weight: 700;
-    border-radius: 8px;
-    cursor: pointer;
+.uploadimage {
+  background: #fe9c15;
+  padding: 21px 0px;
+  width: 194px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -208,6 +205,7 @@ input[type="number"] {
   display: flex;
   margin-top: 15px;
 }
+
 @media (max-width: 982px) {
   body::before {
     content: "";
@@ -221,6 +219,29 @@ input[type="number"] {
     left: -30%;
     top: -28%;
   }
+}
+
+.instagram-section {
+  text-align: center;
+  margin-top: 20px;
+}
+.insta-input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #ddd;
+  font-size: 16px;
+}
+
+.unlock {
+  background-color: #fe9c15;
+  color: #7c30d8;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 
 @media (max-width: 982px) {
@@ -334,9 +355,12 @@ input[type="number"] {
     font-size: 15px;
     color: gray;
   }
+  .insta-input {
+    width: 90%;
+  }
 }
-label{
-    margin-left: 10px;
+label {
+  margin-left: 10px;
 }
 
 @media (max-width: 450px) {
