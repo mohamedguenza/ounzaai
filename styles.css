@@ -95,6 +95,7 @@ body::before {
 }
 .cards {
   width: 300px;
+  height:280px;
   padding: 9px;
   min-height: 150px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
