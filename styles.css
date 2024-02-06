@@ -362,6 +362,9 @@ input[type="number"] {
   .insta-input {
     width: 90%;
   }
+  button {
+    margin: 0px 10px 7px;
+}
 }
 label {
   margin-left: 10px;
